@@ -1022,14 +1022,11 @@ svg.lucide {
 }
 
 html>body{padding:0}</style>
-<style>
-html{color-scheme:light dark;background:light-dark(#f3f5f8,#111820)}
-html>body{margin:0;padding:28px 16px 36px;background:inherit}
-@media(max-width:480px){html>body{padding:10px 8px 20px}}
-</style>
+<style>html{color-scheme:light dark;background:light-dark(#f3f5f8,#111820)}html>body{margin:0;padding:28px 16px 36px;background:inherit}@media(max-width:480px){html>body{padding:10px 8px 20px}}</style>
 </head>
 <body>
 <script>
+
 /**
  * @license lucide v1.17.0 - ISC
  *
@@ -20553,6 +20550,7 @@ html>body{margin:0;padding:28px 16px 36px;background:inherit}
 }));
 //# sourceMappingURL=lucide.js.map
 
+
 </script>
 <div id="schedule-concept" lang="ru" aria-label="Макет графика платежей">
   <style>
@@ -20570,121 +20568,248 @@ html>body{margin:0;padding:28px 16px 36px;background:inherit}
     #schedule-concept .sc-release{margin-top:20px;border-top:1px solid var(--sc-line);padding-top:16px}#schedule-concept .sc-release-caption{font-size:12px;color:var(--sc-muted);margin-bottom:10px}#schedule-concept .sc-release-row{display:grid;grid-template-columns:1fr auto auto;gap:16px;align-items:center;padding:9px 0;font-size:13px}#schedule-concept .sc-release-name{display:flex;align-items:center;gap:8px;min-width:0}#schedule-concept .sc-release-name i{width:16px;height:16px;color:var(--sc-blue)}#schedule-concept .sc-release-day{font-size:12px;color:var(--sc-muted);white-space:nowrap}#schedule-concept .sc-release-value{font-variant-numeric:tabular-nums;white-space:nowrap}#schedule-concept .sc-warn{color:var(--sc-error);font-size:12px;margin-top:12px;background:light-dark(#fff2f3,#402c33);padding:11px 13px;border-radius:9px}
     #schedule-concept .sc-footer{padding:18px 28px;display:flex;justify-content:space-between;align-items:center;gap:14px;border-top:1px solid var(--sc-line);background:var(--sc-surface)}#schedule-concept .sc-balance{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--sc-green)}#schedule-concept .sc-balance svg{width:17px;height:17px}#schedule-concept .sc-balance strong{display:block;font-size:14px;color:var(--sc-fg);margin-top:2px;font-variant-numeric:tabular-nums}#schedule-concept .sc-footer-actions{display:flex;gap:8px;align-items:center}#schedule-concept .sc-toast{margin:12px 0 0;color:var(--sc-green);font-size:12px;text-align:center}#schedule-concept .sc-reopen{padding:25px;text-align:center}#schedule-concept .sc-ready-row{display:grid;grid-template-columns:28px 1fr 100px 28px;gap:14px;align-items:center;border-bottom:1px solid var(--sc-line);padding:12px 0}#schedule-concept .sc-ready-row .sc-field{font-size:11px}#schedule-concept .sc-ready-row .sc-input-wrap{padding:8px 10px}#schedule-concept .sc-ready-row .sc-input-wrap input{font-size:14px}#schedule-concept .sc-ready-head{margin-top:23px}#schedule-concept .sc-ready-label{color:var(--sc-muted);font-size:12px;margin-top:7px}
     @media(max-width:610px){#schedule-concept .sc-header{padding:22px 18px 18px}#schedule-concept .sc-content{padding:0 18px 18px}#schedule-concept .sc-footer{padding:16px 18px;flex-wrap:wrap}#schedule-concept .sc-settings{grid-template-columns:1fr 1fr}#schedule-concept .sc-settings>.sc-field:first-child{grid-column:1/-1}#schedule-concept .sc-table col:nth-child(2),#schedule-concept .sc-table col:nth-child(4){width:65px}#schedule-concept .sc-table th{font-size:11px}#schedule-concept .sc-ret-row{grid-template-columns:1fr 72px}#schedule-concept .sc-ret-date{grid-column:1/-1;justify-content:flex-start;padding-left:25px}#schedule-concept .sc-summary-amount{display:none}#schedule-concept .sc-breakdown-values{gap:8px}#schedule-concept .sc-footer-actions{margin-left:auto}}
-    @media(max-width:480px){#schedule-concept h2{font-size:22px}#schedule-concept .sc-header{padding:20px 14px 16px}#schedule-concept .sc-content{padding:0 14px 18px}#schedule-concept .sc-tabs button{font-size:13px;padding:9px 6px}#schedule-concept .sc-tabs button svg{display:none}#schedule-concept .sc-advance{gap:9px}#schedule-concept .sc-advance-amount{width:100%;padding-left:25px;font-size:12px}#schedule-concept .sc-retentions>summary{padding:12px}#schedule-concept .sc-section-head{align-items:center;gap:8px}#schedule-concept .sc-section-head h3{font-size:16px}#schedule-concept .sc-section-head .sc-btn{padding:9px;font-size:12px}#schedule-concept .sc-section-head .sc-btn svg{display:none}#schedule-concept .sc-generator{padding:13px}#schedule-concept .sc-generator-actions{align-items:flex-start;flex-direction:column;gap:10px}#schedule-concept .sc-gen-message{max-width:100%}#schedule-concept .sc-table,#schedule-concept .sc-table tbody{display:block}#schedule-concept .sc-table colgroup,#schedule-concept .sc-table thead{display:none}#schedule-concept .sc-table tr.sc-stage-row{display:grid;grid-template-columns:30px 1fr 1fr 27px;gap:7px 9px;padding:12px 0;border-bottom:1px solid var(--sc-line)}#schedule-concept .sc-table .sc-stage-row td{border:0;padding:0;min-width:0}#schedule-concept .sc-stage-row td:nth-child(1){grid-column:1;grid-row:1/3;align-self:center}#schedule-concept .sc-stage-row td:nth-child(2){grid-column:2;grid-row:1;text-align:left}#schedule-concept .sc-stage-row td:nth-child(3){grid-column:3;grid-row:1}#schedule-concept .sc-stage-row td:nth-child(4){grid-column:2;grid-row:2;text-align:left;align-self:end}#schedule-concept .sc-stage-row td:nth-child(5){grid-column:3;grid-row:2;align-self:end}#schedule-concept .sc-stage-row td:nth-child(6){grid-column:4;grid-row:1/3;align-self:center}#schedule-concept .sc-stage-row td[data-label]:before{content:attr(data-label);display:block;color:var(--sc-muted);font-size:10px;margin-bottom:4px}#schedule-concept .sc-stage-row .sc-cell-edit{font-size:13px!important;padding:4px 1px}#schedule-concept .sc-day{max-width:55px}#schedule-concept .sc-breakdown-row{display:block}#schedule-concept .sc-breakdown-row>td{display:block}#schedule-concept .sc-breakdown-values{grid-template-columns:1fr;gap:7px}#schedule-concept .sc-breakdown-values>div{display:flex;justify-content:space-between;gap:8px}#schedule-concept .sc-breakdown-values span{margin:0}#schedule-concept .sc-table-total{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;padding-top:14px}#schedule-concept .sc-table-total td{padding:0!important;font-size:12px!important}#schedule-concept .sc-table-total td:nth-child(2){display:none}#schedule-concept .sc-add-note{display:none}#schedule-concept .sc-release-row{grid-template-columns:1fr auto;gap:3px 10px}#schedule-concept .sc-release-name{grid-column:1;grid-row:1;font-size:12px}#schedule-concept .sc-release-day{grid-column:1;grid-row:2;padding-left:24px;font-size:11px}#schedule-concept .sc-release-value{grid-column:2;grid-row:1/3;font-size:13px}#schedule-concept .sc-footer{padding:15px 14px;gap:14px}#schedule-concept .sc-footer-actions{width:100%;justify-content:flex-end}#schedule-concept .sc-footer-actions .sc-primary{flex:1}#schedule-concept .sc-ready-row{grid-template-columns:24px 1fr 70px 24px;gap:6px}#schedule-concept .sc-ready-row .sc-input-wrap{padding:8px 6px}#schedule-concept .sc-ready-row .sc-input-wrap input{font-size:13px}}
+    @media(max-width:480px){#schedule-concept h2{font-size:22px}#schedule-concept .sc-header{padding:20px 14px 16px}#schedule-concept .sc-content{padding:0 14px 18px}#schedule-concept .sc-tabs button{font-size:13px;padding:9px 6px}#schedule-concept .sc-tabs button svg{display:none}#schedule-concept .sc-advance{gap:9px}#schedule-concept .sc-advance-amount{width:100%;padding-left:25px;font-size:12px}#schedule-concept .sc-retentions>summary{padding:12px}#schedule-concept .sc-section-head{align-items:center;gap:8px}#schedule-concept .sc-section-head h3{font-size:16px}#schedule-concept .sc-section-head .sc-btn{padding:9px;font-size:12px}#schedule-concept .sc-section-head .sc-btn svg{display:none}#schedule-concept .sc-generator{padding:13px}#schedule-concept .sc-generator-actions{align-items:flex-start;flex-direction:column;gap:10px}#schedule-concept .sc-gen-message{max-width:100%}#schedule-concept .sc-table,#schedule-concept .sc-table tbody{display:block}#schedule-concept .sc-table colgroup,#schedule-concept .sc-table thead{display:none}#schedule-concept .sc-table tr.sc-stage-row{display:grid;grid-template-columns:30px 1fr 1fr 27px;gap:7px 9px;padding:12px 0;border-bottom:1px solid var(--sc-line)}#schedule-concept .sc-table .sc-stage-row td{border:0;padding:0;min-width:0}#schedule-concept .sc-stage-row td:nth-child(1){grid-column:1;grid-row:1/3;align-self:center}#schedule-concept .sc-stage-row td:nth-child(2){grid-column:2;grid-row:1;text-align:left}#schedule-concept .sc-stage-row td:nth-child(3){grid-column:3;grid-row:1}#schedule-concept .sc-stage-row td:nth-child(4){grid-column:2;grid-row:2;text-align:left;align-self:end}#schedule-concept .sc-stage-row td:nth-child(5){grid-column:3;grid-row:2;align-self:end}#schedule-concept .sc-stage-row td:nth-child(6){grid-column:4;grid-row:1/3;align-self:center}#schedule-concept .sc-stage-row td[data-label]:before{content:attr(data-label);display:block;color:var(--sc-muted);font-size:11px;margin-bottom:4px}#schedule-concept .sc-stage-row .sc-cell-edit{font-size:13px!important;padding:4px 1px}#schedule-concept .sc-day{max-width:55px}#schedule-concept .sc-breakdown-row{display:block}#schedule-concept .sc-breakdown-row>td{display:block}#schedule-concept .sc-breakdown-values{grid-template-columns:1fr;gap:7px}#schedule-concept .sc-breakdown-values>div{display:flex;justify-content:space-between;gap:8px}#schedule-concept .sc-breakdown-values span{margin:0}#schedule-concept .sc-table-total{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;padding-top:14px}#schedule-concept .sc-table-total td{padding:0!important;font-size:12px!important}#schedule-concept .sc-table-total td:nth-child(2){display:none}#schedule-concept .sc-add-note{display:none}#schedule-concept .sc-release-row{grid-template-columns:1fr auto;gap:3px 10px}#schedule-concept .sc-release-name{grid-column:1;grid-row:1;font-size:12px}#schedule-concept .sc-release-day{grid-column:1;grid-row:2;padding-left:24px;font-size:11px}#schedule-concept .sc-release-value{grid-column:2;grid-row:1/3;font-size:13px}#schedule-concept .sc-footer{padding:15px 14px;gap:14px}#schedule-concept .sc-footer-actions{width:100%;justify-content:flex-end}#schedule-concept .sc-footer-actions .sc-primary{flex:1}#schedule-concept .sc-ready-row{grid-template-columns:24px 1fr 70px 24px;gap:6px}#schedule-concept .sc-ready-row .sc-input-wrap{padding:8px 6px}#schedule-concept .sc-ready-row .sc-input-wrap input{font-size:13px}}
     @media(max-width:480px){#schedule-concept .sc-table tr.sc-stage-row{grid-template-columns:24px 65px minmax(0,1fr) 24px;gap:7px 6px}#schedule-concept .sc-ready-row{grid-template-columns:24px minmax(0,1fr) 24px;gap:8px}#schedule-concept .sc-ready-row>.sc-number{grid-column:1;grid-row:1/3}#schedule-concept .sc-ready-row>.sc-field:nth-child(2){grid-column:2;grid-row:1}#schedule-concept .sc-ready-row>.sc-field:nth-child(3){grid-column:2;grid-row:2;max-width:110px}#schedule-concept .sc-ready-row>.sc-icon{grid-column:3;grid-row:1/3}}
     @media(pointer:coarse){#schedule-concept .sc-icon{min-width:28px;min-height:44px}#schedule-concept input{font-size:16px!important}#schedule-concept .sc-btn{min-height:44px}}@media(prefers-reduced-motion:reduce){#schedule-concept *{transition:none!important}}
+    #schedule-concept .sc-tabs{margin-bottom:10px}#schedule-concept .sc-mode-note{color:var(--sc-muted);font-size:12px;margin:0 0 20px;min-height:18px}
+    #schedule-concept .sc-entry-toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px 14px;margin:0 0 10px;color:var(--sc-muted);font-size:12px}#schedule-concept .sc-entry-choice{display:flex;gap:9px;align-items:center}#schedule-concept .sc-entry-units{display:inline-flex;gap:3px;padding:3px;border-radius:8px;background:var(--sc-input)}#schedule-concept .sc-entry-units button{border:0;border-radius:6px;background:transparent;color:var(--sc-muted);min-width:33px;padding:4px 9px;font-size:13px}#schedule-concept .sc-entry-units button[aria-pressed=true]{background:var(--sc-button);color:var(--sc-fg)}#schedule-concept .sc-converted{display:block;font-size:11px;color:var(--sc-muted);font-variant-numeric:tabular-nums;margin-top:3px;overflow-wrap:anywhere}#schedule-concept .sc-reference{display:block;font-size:11px;font-weight:400;color:var(--sc-muted)}#schedule-concept .sc-cash{color:var(--sc-muted)}#schedule-concept .sc-settings.sc-two-fields{grid-template-columns:1.38fr 1fr}
+    @media(max-width:480px){#schedule-concept .sc-entry-toolbar{align-items:flex-start}#schedule-concept .sc-tabs button{font-size:12px}#schedule-concept .sc-settings.sc-two-fields{grid-template-columns:1fr 1fr}#schedule-concept .sc-entry-units button{min-width:36px;padding:6px 10px}}
   </style>
   <section class="sc-window" role="dialog" aria-labelledby="sc-title">
     <header class="sc-header"><div><h2 id="sc-title">График платежей</h2><div class="sc-subtitle"><span>Орион</span><span class="sc-dot"></span><span>Товар / разовая услуга</span></div></div><button type="button" class="sc-icon sc-close" data-action="close" aria-label="Закрыть график"><i data-lucide="x" aria-hidden="true"></i></button></header>
     <div class="sc-content">
-      <div class="sc-tabs" role="tablist" aria-label="Способ заполнения графика"><button type="button" role="tab" id="sc-tab-stages" aria-selected="true" aria-controls="sc-stages" data-mode="stages"><i data-lucide="layers" aria-hidden="true"></i>По этапам</button><button type="button" role="tab" id="sc-tab-ready" aria-selected="false" aria-controls="sc-ready" data-mode="ready"><i data-lucide="list" aria-hidden="true"></i>Готовые платежи</button></div>
+      <div class="sc-tabs" role="tablist" aria-label="Способ заполнения графика"><button type="button" role="tab" id="sc-tab-stages" aria-selected="true" aria-controls="sc-stages" data-mode="stages"><i data-lucide="layers" aria-hidden="true"></i>Стоимость этапов</button><button type="button" role="tab" id="sc-tab-ready" aria-selected="false" aria-controls="sc-ready" data-mode="ready"><i data-lucide="list" aria-hidden="true"></i>Суммы платежей</button></div>
+      <p class="sc-mode-note" id="sc-mode-note">Укажите стоимость этапов до зачёта аванса и удержаний.</p>
       <div class="sc-settings">
         <label class="sc-field">Стоимость предложения<span class="sc-input-wrap"><input id="sc-price" type="text" inputmode="decimal" value="100 000 000" aria-label="Стоимость предложения"><span class="sc-unit">₽</span></span></label>
         <label class="sc-field">Завершение договора<span class="sc-input-wrap"><input id="sc-duration" type="number" min="1" max="10000" step="1" value="180" aria-label="Завершение договора, день"><span class="sc-unit">день</span></span></label>
         <label class="sc-field" id="sc-delay-field">Постоплата за этап<span class="sc-input-wrap"><input id="sc-delay" type="number" min="0" max="10000" step="1" value="30" aria-label="Постоплата за этап, дней"><span class="sc-unit">дней</span></span></label>
       </div>
       <p class="sc-hint">Все дни отсчитываются от начала заказа. Начало — день 0.</p>
+      <div class="sc-advance"><label class="sc-check"><input id="sc-advance-on" type="checkbox" checked>Аванс</label><label class="sc-inline"><input id="sc-advance" type="number" class="sc-mini-input" min="0" max="100" step="any" value="30" aria-label="Аванс, процентов">%</label><label class="sc-inline">в день<input id="sc-advance-day" type="number" class="sc-mini-input" min="0" step="1" value="0" aria-label="День перечисления аванса"></label><span class="sc-advance-amount" id="sc-advance-amount">30 000 000 ₽</span></div>
       <section id="sc-stages" role="tabpanel" aria-labelledby="sc-tab-stages">
-        <div class="sc-advance"><label class="sc-check"><input id="sc-advance-on" type="checkbox" checked>Аванс</label><label class="sc-inline"><input id="sc-advance" type="number" class="sc-mini-input" min="0" max="100" step="1" value="30" aria-label="Аванс, процентов">%</label><label class="sc-inline">в день<input id="sc-advance-day" type="number" class="sc-mini-input" min="0" step="1" value="0" aria-label="День перечисления аванса"></label><span class="sc-advance-amount" id="sc-advance-amount">30 000 000 ₽</span></div>
         <details class="sc-retentions" id="sc-retentions"><summary><span class="sc-ret-title">Удержания<span class="sc-tag" id="sc-ret-badge">5% + 5%</span></span><span class="sc-summary-end"><span class="sc-summary-amount" id="sc-ret-total">10 000 000 ₽</span><span class="sc-caret" aria-hidden="true">⌄</span></span></summary><div class="sc-ret-body">
           <div class="sc-ret-row"><label class="sc-check"><input id="sc-build-on" type="checkbox" checked>Строительное</label><label class="sc-inline"><input id="sc-build" type="number" class="sc-mini-input" min="0" max="100" step=".5" value="5" aria-label="Строительное удержание, процентов">%</label><label class="sc-ret-date">Вернуть через<input id="sc-build-days" type="number" class="sc-mini-input" min="0" max="10000" step="1" value="30" aria-label="Выплата строительного удержания, дней после завершения">дней</label></div>
           <div class="sc-ret-row"><label class="sc-check"><input id="sc-warranty-on" type="checkbox" checked>Гарантийное</label><label class="sc-inline"><input id="sc-warranty" type="number" class="sc-mini-input" min="0" max="100" step=".5" value="5" aria-label="Гарантийное удержание, процентов">%</label><label class="sc-ret-date">Вернуть через<input id="sc-warranty-days" type="number" class="sc-mini-input" min="0" max="10000" step="1" value="365" aria-label="Выплата гарантийного удержания, дней после завершения">дней</label></div>
-          <p class="sc-ret-foot">Проценты — от стоимости работ. Сроки выплаты — после завершения договора. Из аванса не удерживаем.</p>
+          <p class="sc-ret-foot">Удерживаем процент от стоимости каждого этапа. Возвращаем после завершения всего договора. Из аванса не удерживаем.</p>
         </div></details>
-        <div class="sc-section-head"><h3>Этапы работ <span class="sc-count" id="sc-stage-count">6</span></h3><button type="button" class="sc-btn" data-action="generator"><i data-lucide="split" aria-hidden="true"></i>Разбить на этапы</button></div>
+        <div class="sc-section-head"><h3>Этапы <span class="sc-count" id="sc-stage-count">6</span></h3><button type="button" class="sc-btn" data-action="generator"><i data-lucide="split" aria-hidden="true"></i>Разбить на этапы</button></div>
+        <div class="sc-entry-toolbar"><div class="sc-entry-choice">Ввод стоимости<div class="sc-entry-units" role="group" aria-label="Единицы стоимости этапов"><button type="button" data-entry="stages" data-unit="rub" aria-pressed="true">₽</button><button type="button" data-entry="stages" data-unit="percent" aria-pressed="false">%</button></div></div><span id="sc-stage-unit-note">Стоимость до зачёта аванса и удержаний</span></div>
         <div id="sc-stage-generator-slot"></div>
-        <table class="sc-table" aria-label="График этапов работ"><colgroup><col><col><col><col><col><col></colgroup><thead><tr><th>№</th><th>Приёмка,<br>день</th><th>Стоимость<br>работ, ₽</th><th>Оплата,<br>день</th><th>К перечислению,<br>₽</th><th></th></tr></thead><tbody id="sc-stage-rows"></tbody></table>
+        <table class="sc-table" aria-label="График этапов"><colgroup><col><col><col><col><col><col></colgroup><thead><tr><th>№</th><th>Завершение,<br>день</th><th id="sc-cost-heading">Стоимость, ₽</th><th>Оплата,<br>день</th><th>К перечислению, ₽<span class="sc-reference">справочно</span></th><th></th></tr></thead><tbody id="sc-stage-rows"></tbody></table>
         <div class="sc-add-row"><button type="button" class="sc-link" data-action="add-stage"><i data-lucide="plus" aria-hidden="true"></i>Добавить этап</button><span class="sc-add-note">Расчёт строки — по стрелке справа</span></div>
         <div class="sc-release" id="sc-release"><p class="sc-release-caption">Выплата накопленных удержаний</p><div id="sc-release-rows"></div></div>
       </section>
-      <section id="sc-ready" role="tabpanel" aria-labelledby="sc-tab-ready" hidden><p class="sc-ready-label">Суммы, которые перечисляете подрядчику, включая аванс и выплаты удержаний.</p><div class="sc-section-head sc-ready-head"><h3>Платежи <span class="sc-count" id="sc-ready-count">9</span></h3><button type="button" class="sc-btn" data-action="generator"><i data-lucide="split" aria-hidden="true"></i>Разбить сумму</button></div><div id="sc-ready-generator-slot"></div><div id="sc-ready-rows"></div><button type="button" class="sc-link" data-action="add-ready"><i data-lucide="plus" aria-hidden="true"></i>Добавить платёж</button></section>
+      <section id="sc-ready" role="tabpanel" aria-labelledby="sc-tab-ready" hidden><p class="sc-ready-label">Аванс указан выше. Если есть удержания, учтите их в суммах и датах платежей.</p><div class="sc-section-head sc-ready-head"><h3>Платежи <span class="sc-count" id="sc-ready-count">8</span></h3><button type="button" class="sc-btn" data-action="generator"><i data-lucide="split" aria-hidden="true"></i>Разбить сумму</button></div><div class="sc-entry-toolbar"><div class="sc-entry-choice">Ввод суммы<div class="sc-entry-units" role="group" aria-label="Единицы сумм платежей"><button type="button" data-entry="ready" data-unit="rub" aria-pressed="true">₽</button><button type="button" data-entry="ready" data-unit="percent" aria-pressed="false">%</button></div></div><span id="sc-ready-unit-note">Аванс + платежи = стоимость предложения</span></div><div id="sc-ready-generator-slot"></div><div id="sc-ready-rows"></div><button type="button" class="sc-link" data-action="add-ready"><i data-lucide="plus" aria-hidden="true"></i>Добавить платёж</button></section>
       <div class="sc-warn" id="sc-error" role="alert" hidden></div><p class="sc-toast" id="sc-toast" role="status" hidden></p>
     </div>
     <footer class="sc-footer"><div class="sc-balance"><i data-lucide="circle-check" aria-hidden="true"></i><div><span id="sc-balance-label">Распределено полностью</span><strong id="sc-balance-value">100 000 000 ₽</strong></div></div><div class="sc-footer-actions"><button type="button" class="sc-btn sc-quiet" data-action="cancel">Отмена</button><button type="button" class="sc-btn sc-primary" id="sc-save" data-action="save">Сохранить график</button></div></footer>
   </section>
   <div class="sc-reopen" hidden><button type="button" class="sc-btn sc-primary" data-action="reopen">Открыть график платежей</button></div>
   <script>
-  (()=>{
-    const root=document.getElementById('schedule-concept');
-    const $=s=>root.querySelector(s), $$=s=>Array.from(root.querySelectorAll(s));
-    const money=(c,dec=false)=>new Intl.NumberFormat('ru-RU',{minimumFractionDigits:dec?2:0,maximumFractionDigits:dec?2:2}).format(c/100);
-    const num=s=>Number(String(s).replace(/[\s\u00a0\u202f]/g,'').replace(',','.'));
-    const split=(total,n)=>{const b=Math.floor(total/n);return [total-b*(n-1),...Array(n-1).fill(b)];};
-    const initial={mode:'stages',price:10000000000,duration:180,delay:30,advanceOn:true,advance:30,advanceDay:0,buildOn:true,build:5,buildDays:30,warrantyOn:true,warranty:5,warrantyDays:365,rows:[],ready:null,expanded:-1,generator:false,count:6};
-    initial.rows=split(initial.price,6).map((gross,i)=>({gross,end:(i+1)*30,delay:null}));
-    let state=structuredClone(initial),saved=structuredClone(initial);
-    const design={theme:'auto',density:'comfortable',deductions:'collapsed'};
-    function icons(){if(globalThis.lucide)globalThis.lucide.createIcons({attrs:{width:16,height:16}});}
-    function allocate(percent){const all=state.rows.map(x=>Math.floor(x.gross*percent/100));if(all.length){const target=Math.round(state.rows.reduce((s,x)=>s+x.gross,0)*percent/100);all[0]=target-all.slice(1).reduce((s,x)=>s+x,0);}return all;}
-    function computed(){const a=allocate(state.advanceOn?state.advance:0),b=allocate(state.buildOn?state.build:0),w=allocate(state.warrantyOn?state.warranty:0);return state.rows.map((x,i)=>({...x,a:a[i],b:b[i],w:w[i],cash:x.gross-a[i]-b[i]-w[i],due:x.end+(x.delay===null?state.delay:x.delay)}));}
-    function sum(rows,key){return rows.reduce((s,x)=>s+x[key],0);}
-    function esc(v){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-    function syncInputs(){const map={price:money(state.price),duration:state.duration,delay:state.delay,advance:state.advance,'advance-day':state.advanceDay,build:state.build,'build-days':state.buildDays,warranty:state.warranty,'warranty-days':state.warrantyDays};Object.entries(map).forEach(([id,v])=>$('#sc-'+id).value=v);[['advance-on',state.advanceOn],['build-on',state.buildOn],['warranty-on',state.warrantyOn]].forEach(([id,v])=>$('#sc-'+id).checked=v);}
-    function generatorMarkup(){let n=state.count;const valid=Number.isInteger(n)&&n>=1&&n<=200&&n<=state.duration;let preview='Количество: от 1 до 200, не больше числа дней.';if(valid){const ds=split(state.duration,n),ms=split(state.price,n);preview=`Первый: ${ds[0]} дн. · ${money(ms[0],true)} ₽<br>Остальные: ${ds[1]??ds[0]} дн. · ${money(ms[1]??ms[0],true)} ₽`;}return `<div class="sc-generator"><div class="sc-generator-head"><strong>${state.mode==='stages'?'Равные этапы':'Равные платежи'}</strong><button type="button" class="sc-icon" data-action="hide-generator" aria-label="Закрыть генератор"><i data-lucide="x" aria-hidden="true"></i></button></div><div class="sc-generator-grid"><label class="sc-field">Количество<span class="sc-input-wrap"><input id="sc-gen-count" type="number" min="1" max="200" step="1" value="${n}" aria-label="Количество создаваемых строк"></span></label><div class="sc-gen-note"><span id="sc-gen-preview">${preview}</span></div></div><div class="sc-generator-actions"><span class="sc-gen-message">${state.mode==='stages'?'Заменит текущие этапы. Аванс сохранится.':'Заменит все введённые платежи.'} Остаток — в первой строке.</span><button type="button" class="sc-btn sc-primary" data-action="apply-generator" id="sc-generate" ${valid?'':'disabled'}>Создать ${Number.isInteger(n)&&n>0?n:''}</button></div></div>`;}
-    function render(){
-      const cr=computed();
-      $$('.sc-tabs button').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.mode===state.mode)));
-      $('#sc-stages').hidden=state.mode!=='stages';$('#sc-ready').hidden=state.mode!=='ready';$('#sc-delay-field').hidden=state.mode!=='stages';
-      $('#sc-advance').disabled=!state.advanceOn;$('#sc-advance-day').disabled=!state.advanceOn;
-      ['build','warranty'].forEach(k=>{$('#sc-'+k).disabled=!state[k+'On'];$('#sc-'+k+'-days').disabled=!state[k+'On'];});
-      $('#sc-advance-amount').textContent=money(Math.round(state.price*(state.advanceOn?state.advance:0)/100))+' ₽';
-      const br=state.buildOn?state.build:0,wr=state.warrantyOn?state.warranty:0;
-      $('#sc-ret-badge').textContent=br||wr?`${br}% + ${wr}%`:'Нет';$('#sc-ret-total').textContent=money(Math.round(state.price*(br+wr)/100))+' ₽';
-      $('#sc-stage-count').textContent=cr.length;
-      $('#sc-stage-rows').innerHTML=cr.map((x,i)=>`<tr class="sc-stage-row ${state.expanded===i?'sc-row-open':''}"><td><span class="sc-number">${i+1}</span></td><td data-label="Приёмка, день"><input class="sc-cell-edit sc-day" type="number" step="1" min="0" value="${x.end}" data-stage="${i}" data-key="end" aria-label="Приёмка этапа ${i+1}, день"></td><td data-label="Стоимость работ, ₽"><input class="sc-cell-edit" type="text" inputmode="decimal" value="${money(x.gross,true)}" data-stage="${i}" data-key="gross" aria-label="Стоимость работ этапа ${i+1}"></td><td class="sc-due" data-label="Оплата, день">${x.due}</td><td data-label="К перечислению, ₽">${money(x.cash,true)}</td><td><button type="button" class="sc-icon" data-action="expand" data-index="${i}" aria-label="Расчёт этапа ${i+1}" aria-expanded="${state.expanded===i}"><i data-lucide="${state.expanded===i?'chevron-up':'chevron-down'}" aria-hidden="true"></i></button></td></tr>${state.expanded===i?`<tr class="sc-breakdown-row"><td colspan="6" class="sc-breakdown-cell"><div class="sc-breakdown"><div class="sc-breakdown-values"><div><span>Зачёт аванса</span><strong>− ${money(x.a,true)} ₽</strong></div><div><span>Строительное</span><strong>− ${money(x.b,true)} ₽</strong></div><div><span>Гарантийное</span><strong>− ${money(x.w,true)} ₽</strong></div></div><div class="sc-breakdown-bottom"><label class="sc-inline">Постоплата<input class="sc-mini-input" type="number" min="0" step="1" value="${x.delay===null?state.delay:x.delay}" data-stage="${i}" data-key="delay" aria-label="Своя постоплата этапа ${i+1}">дней</label><button type="button" class="sc-link sc-delete" data-action="delete-stage" data-index="${i}">Удалить этап</button></div></div></td></tr>`:''}`).join('')+`<tr class="sc-table-total"><td colspan="2">Всего по этапам</td><td>${money(sum(cr,'gross'),true)}</td><td></td><td>${money(sum(cr,'cash'),true)}</td><td></td></tr>`;
-      const releases=[{name:'Строительное удержание',amount:sum(cr,'b'),day:state.duration+state.buildDays},{name:'Гарантийное удержание',amount:sum(cr,'w'),day:state.duration+state.warrantyDays}].filter(x=>x.amount>0);
-      $('#sc-release').hidden=!releases.length;$('#sc-release-rows').innerHTML=releases.map(x=>`<div class="sc-release-row"><span class="sc-release-name"><i data-lucide="shield-check" aria-hidden="true"></i>${x.name}</span><span class="sc-release-day">день ${x.day}</span><span class="sc-release-value">${money(x.amount)} ₽</span></div>`).join('');
-      $('#sc-stage-generator-slot').innerHTML=state.generator&&state.mode==='stages'?generatorMarkup():'';$('#sc-ready-generator-slot').innerHTML=state.generator&&state.mode==='ready'?generatorMarkup():'';
-      if(state.ready){$('#sc-ready-count').textContent=state.ready.length;$('#sc-ready-rows').innerHTML=state.ready.map((x,i)=>`<div class="sc-ready-row"><span class="sc-number">${i+1}</span><label class="sc-field">${esc(x.label)}<span class="sc-input-wrap"><input type="text" inputmode="decimal" value="${money(x.amount,true)}" data-ready="${i}" data-key="amount" aria-label="Сумма платежа ${i+1}"><span class="sc-unit">₽</span></span></label><label class="sc-field">День оплаты<span class="sc-input-wrap"><input type="number" min="0" step="1" value="${x.day}" data-ready="${i}" data-key="day" aria-label="День оплаты платежа ${i+1}"></span></label><button type="button" class="sc-icon" data-action="delete-ready" data-index="${i}" aria-label="Удалить платёж ${i+1}"><i data-lucide="x" aria-hidden="true"></i></button></div>`).join('');}
-      const errors=[];
-      if(!Number.isSafeInteger(state.price)||state.price<=0)errors.push('Укажите положительную стоимость предложения.');
-      if(!Number.isInteger(state.duration)||state.duration<1)errors.push('Укажите целый положительный день завершения.');
-      const paidAdvance=Math.round(state.price*(state.advanceOn?state.advance:0)/100);
-      let allocated=state.mode==='stages'?paidAdvance+sum(cr,'cash')+sum(cr,'b')+sum(cr,'w'):(state.ready||[]).reduce((s,x)=>s+x.amount,0);
-      if(state.mode==='stages'){
-        if(!Number.isInteger(state.delay)||state.delay<0)errors.push('Постоплата должна быть целым неотрицательным числом дней.');
-        if([state.advanceOn?state.advance:0,br,wr].some(x=>!Number.isFinite(x)||x<0||x>100))errors.push('Проценты должны быть от 0 до 100.');
-        if((state.advanceOn?state.advance:0)+br+wr>100)errors.push('Аванс и удержания превышают 100%. Уменьшите аванс или удержания.');
-        if(cr.some(x=>!Number.isSafeInteger(x.gross)||x.gross<=0))errors.push('У каждого этапа должна быть положительная стоимость.');
-        if(sum(cr,'gross')!==state.price)errors.push(`Стоимость этапов отличается от цены договора на ${money(Math.abs(sum(cr,'gross')-state.price),true)} ₽. Исправьте строки или разбейте сумму заново.`);
-        if(cr.some((x,i)=>!Number.isInteger(x.end)||x.end<0||x.end>state.duration||(i>0&&x.end<cr[i-1].end)))errors.push('Дни этапов должны идти по порядку и не выходить за завершение договора.');
-        if(cr.some(x=>!Number.isInteger(x.due)||x.due<x.end))errors.push('Постоплата этапа должна быть целым неотрицательным числом дней.');
-        if(state.advanceOn&&(!Number.isInteger(state.advanceDay)||state.advanceDay<0||(cr.length&&state.advanceDay>cr[0].end)))errors.push('Укажите день аванса до первой приёмки или в тот же день.');
-        if((br>0&&(!Number.isInteger(state.buildDays)||state.buildDays<0))||(wr>0&&(!Number.isInteger(state.warrantyDays)||state.warrantyDays<0)))errors.push('Срок выплаты удержания должен быть целым неотрицательным числом дней.');
-        if(cr.some(x=>(x.b>0&&state.duration+state.buildDays<x.due)||(x.w>0&&state.duration+state.warrantyDays<x.due)))errors.push('Выплата удержания раньше обычной оплаты одного из этапов. Уточните срок выплаты удержания.');
-        if(cr.some(x=>x.cash<0))errors.push('После вычетов получился отрицательный платёж. Проверьте условия.');
-      }else{
-        if((state.ready||[]).some(x=>!Number.isSafeInteger(x.amount)||x.amount<0||!Number.isInteger(x.day)||x.day<0))errors.push('Укажите неотрицательные суммы и целые дни платежей.');
-        if(allocated!==state.price)errors.push(`Сумма платежей отличается от цены предложения на ${money(Math.abs(allocated-state.price),true)} ₽.`);
-      }
-      $('#sc-error').hidden=!errors.length;$('#sc-error').textContent=errors.join(' ');$('#sc-save').disabled=!!errors.length;
-      $('#sc-balance-label').textContent=errors.length?'Проверьте график':'Распределено полностью';$('#sc-balance-value').textContent=money(allocated)+' ₽';$('.sc-balance').style.color=errors.length?'var(--sc-error)':'var(--sc-green)';
-      icons();
+(()=>{
+  const root=document.getElementById('schedule-concept');
+  const $=s=>root.querySelector(s), $$=s=>Array.from(root.querySelectorAll(s));
+  const money=(c,dec=false)=>Number.isFinite(c)?new Intl.NumberFormat('ru-RU',{minimumFractionDigits:dec?2:0,maximumFractionDigits:2}).format(c/100):'—';
+  const percent=p=>Number.isFinite(p)?new Intl.NumberFormat('ru-RU',{maximumFractionDigits:8,useGrouping:false}).format(p):'';
+  const num=s=>String(s).trim()===''?NaN:Number(String(s).replace(/[\s\u00a0\u202f]/g,'').replace(',','.'));
+  const split=(total,n)=>{const b=Math.floor(total/n);return [total-b*(n-1),...Array(n-1).fill(b)];};
+  const sum=(rows,key)=>rows.reduce((s,x)=>s+x[key],0);
+  const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const initial={mode:'stages',units:{stages:'rub',ready:'rub'},price:10000000000,duration:180,delay:30,advanceOn:true,advance:30,advanceDay:0,buildOn:true,build:5,buildDays:30,warrantyOn:true,warranty:5,warrantyDays:365,rows:[],ready:null,readyEdited:false,expanded:-1,generator:false,count:6};
+  initial.rows=split(initial.price,6).map((gross,i)=>({gross,end:(i+1)*30,delay:null}));
+  let state=structuredClone(initial),saved=structuredClone(initial);
+  const design={theme:'auto',density:'comfortable',deductions:'collapsed'};
+  const advancePercent=()=>state.advanceOn?state.advance:0;
+  const advanceAmount=()=>Math.round(state.price*advancePercent()/100);
+  const entryRows=mode=>mode==='stages'?state.rows:(state.ready||[]);
+  const amountKey=mode=>mode==='stages'?'gross':'amount';
+  const targetPercent=mode=>mode==='stages'?100:100-advancePercent();
+  const targetAmount=mode=>mode==='stages'?state.price:state.price-advanceAmount();
+  const isPercent=mode=>state.units[mode]==='percent';
+  function icons(){if(globalThis.lucide)globalThis.lucide.createIcons({attrs:{width:16,height:16}});}
+  function rememberPercentages(mode){const key=amountKey(mode);entryRows(mode).forEach(row=>{row.percent=state.price>0?row[key]*100/state.price:NaN;});}
+  function recalculatePercentages(mode){
+    if(!isPercent(mode))return;
+    const rows=entryRows(mode),key=amountKey(mode);
+    rows.forEach(row=>row[key]=Math.round(state.price*row.percent/100));
+    // When the entered shares cover the target, keep the money total exact.
+    // Whole-kopeck rounding is assigned to the first row, as in the generator.
+    if(rows.length&&Number.isSafeInteger(state.price)&&state.price>0&&
+       rows.every(row=>Number.isFinite(row.percent)&&row.percent>=0)&&
+       Math.abs(sum(rows,'percent')-targetPercent(mode))<1e-8){
+      rows.slice(1).forEach(row=>row[key]=Math.floor(state.price*row.percent/100));
+      rows[0][key]=targetAmount(mode)-sum(rows.slice(1),key);
     }
-    function changed(){ $('#sc-toast').hidden=true;render(); }
-    root.addEventListener('click',e=>{
-      const mode=e.target.closest('[data-mode]');if(mode){state.mode=mode.dataset.mode;state.generator=false;if(state.mode==='ready'&&!state.ready){const cr=computed();state.ready=[];if(state.advanceOn&&state.advance>0)state.ready.push({label:'Аванс',amount:Math.round(state.price*state.advance/100),day:state.advanceDay});cr.forEach((x,i)=>state.ready.push({label:`Оплата этапа ${i+1}`,amount:x.cash,day:x.due}));if(sum(cr,'b')>0)state.ready.push({label:'Строительное удержание',amount:sum(cr,'b'),day:state.duration+state.buildDays});if(sum(cr,'w')>0)state.ready.push({label:'Гарантийное удержание',amount:sum(cr,'w'),day:state.duration+state.warrantyDays});}changed();return;}
-      const button=e.target.closest('[data-action]');if(!button)return;const action=button.dataset.action,index=Number(button.dataset.index);
-      if(action==='close'||action==='cancel'){if(action==='cancel'){state=structuredClone(saved);syncInputs();render();}$('.sc-window').hidden=true;$('.sc-reopen').hidden=false;return;}
-      if(action==='reopen'){$('.sc-window').hidden=false;$('.sc-reopen').hidden=true;return;}
-      if(action==='save'){saved=structuredClone(state);$('#sc-toast').textContent='Изменения сохранены в макете.';$('#sc-toast').hidden=false;return;}
-      if(action==='generator')state.generator=!state.generator;
-      if(action==='hide-generator')state.generator=false;
-      if(action==='expand')state.expanded=state.expanded===index?-1:index;
-      if(action==='delete-stage'){state.rows.splice(index,1);state.expanded=-1;}
-      if(action==='add-stage'){state.rows.push({gross:Math.max(0,state.price-sum(state.rows,'gross')),end:state.duration,delay:null});state.expanded=state.rows.length-1;}
-      if(action==='add-ready')state.ready.push({label:'Платёж',amount:Math.max(0,state.price-state.ready.reduce((s,x)=>s+x.amount,0)),day:state.duration});
-      if(action==='delete-ready')state.ready.splice(index,1);
-      if(action==='apply-generator'){const n=state.count;if(!Number.isInteger(n)||n<1||n>200||n>state.duration)return;let day=0;const ds=split(state.duration,n),amounts=split(state.price,n);if(state.mode==='stages'){state.rows=amounts.map((gross,i)=>({gross,end:day+=ds[i],delay:null}));state.expanded=-1;}else{state.ready=amounts.map((amount,i)=>({label:`Платёж ${i+1}`,amount,day:day+=ds[i]}));}state.generator=false;}
-      changed();
-    });
-    const inputMap={'sc-duration':'duration','sc-delay':'delay','sc-advance':'advance','sc-advance-day':'advanceDay','sc-build':'build','sc-build-days':'buildDays','sc-warranty':'warranty','sc-warranty-days':'warrantyDays'};
-    root.addEventListener('input',e=>{if(e.target.id==='sc-gen-count'){state.count=Number(e.target.value);const n=state.count,valid=Number.isInteger(n)&&n>=1&&n<=200&&n<=state.duration;$('#sc-generate').disabled=!valid;$('#sc-generate').textContent=`Создать ${valid?n:''}`;if(valid){const ds=split(state.duration,n),ms=split(state.price,n);$('#sc-gen-preview').innerHTML=`Первый: ${ds[0]} дн. · ${money(ms[0],true)} ₽<br>Остальные: ${ds[1]??ds[0]} дн. · ${money(ms[1]??ms[0],true)} ₽`;}else $('#sc-gen-preview').textContent='Количество: от 1 до 200, не больше числа дней.';}});
-    root.addEventListener('change',e=>{const el=e.target;if(el.id==='sc-gen-count')return;if(el.id==='sc-price'){state.price=Math.round(num(el.value)*100);el.value=money(state.price);}else if(inputMap[el.id])state[inputMap[el.id]]=el.value.trim()===''?NaN:Number(el.value);else if(el.id==='sc-advance-on')state.advanceOn=el.checked;else if(el.id==='sc-build-on')state.buildOn=el.checked;else if(el.id==='sc-warranty-on')state.warrantyOn=el.checked;else if(el.dataset.stage!==undefined){const row=state.rows[Number(el.dataset.stage)];row[el.dataset.key]=el.dataset.key==='gross'?Math.round(num(el.value)*100):(el.value.trim()===''?NaN:Number(el.value));}else if(el.dataset.ready!==undefined){const row=state.ready[Number(el.dataset.ready)];row[el.dataset.key]=el.dataset.key==='amount'?Math.round(num(el.value)*100):(el.value.trim()===''?NaN:Number(el.value));}else return;changed();});
-    function applyDesign(){root.style.colorScheme=design.theme==='auto'?'light dark':design.theme;root.style.setProperty('--sc-row',design.density==='compact'?'8px':'14px');$('#sc-retentions').open=design.deductions==='expanded';}
-    syncInputs();render();applyDesign();
-    if(globalThis.Tweak){const tweak=new Tweak({container:root,onChange:applyDesign});tweak.addSelect(design,'theme',{label:'Тема',options:[{label:'Как в приложении',value:'auto'},{label:'Тёмная',value:'dark'},{label:'Светлая',value:'light'}]});tweak.addSelect(design,'density',{label:'Плотность строк',options:[{label:'Обычная',value:'comfortable'},{label:'Компактная',value:'compact'}]});tweak.addSelect(design,'deductions',{label:'Блок удержаний',options:[{label:'Свёрнут',value:'collapsed'},{label:'Раскрыт',value:'expanded'}]});}
-  })();
+  }
+  function allocate(p){const amounts=state.rows.map(x=>Math.floor(x.gross*p/100));if(amounts.length){const target=Math.round(sum(state.rows,'gross')*p/100);amounts[0]=target-amounts.slice(1).reduce((s,x)=>s+x,0);}return amounts;}
+  function computed(){const a=allocate(advancePercent()),b=allocate(state.buildOn?state.build:0),w=allocate(state.warrantyOn?state.warranty:0);return state.rows.map((x,i)=>({...x,a:a[i],b:b[i],w:w[i],cash:x.gross-a[i]-b[i]-w[i],due:x.end+(x.delay===null?state.delay:x.delay)}));}
+  function syncInputs(){
+    const map={price:money(state.price),duration:state.duration,delay:state.delay,advance:state.advance,'advance-day':state.advanceDay,build:state.build,'build-days':state.buildDays,warranty:state.warranty,'warranty-days':state.warrantyDays};
+    Object.entries(map).forEach(([id,v])=>$('#sc-'+id).value=v);
+    [['advance-on',state.advanceOn],['build-on',state.buildOn],['warranty-on',state.warrantyOn]].forEach(([id,v])=>$('#sc-'+id).checked=v);
+  }
+  function generation(){
+    const n=state.count,mode=state.mode,start=mode==='ready'&&state.advanceOn?state.advanceDay:0;
+    const span=state.duration-start,total=targetAmount(mode),share=targetPercent(mode);
+    const valid=Number.isInteger(n)&&n>=1&&n<=200&&Number.isInteger(span)&&n<=span&&start>=0&&
+      Number.isSafeInteger(state.price)&&state.price>0&&Number.isSafeInteger(total)&&total>=0&&share>=0&&share<=100;
+    if(!valid)return {valid,preview:'Количество: от 1 до 200, не больше доступного числа дней. Проверьте стоимость и аванс.'};
+    const ds=split(span,n);let amounts=split(total,n),portions=null;
+    if(isPercent(mode)){
+      const decimals=(share.toFixed(8).replace(/0+$/,'').split('.')[1]||'').length;
+      const scale=10**Math.max(2,decimals);
+      portions=split(Math.round(share*scale),n).map(x=>x/scale);
+      amounts=portions.map(p=>Math.floor(state.price*p/100));
+      amounts[0]=total-amounts.slice(1).reduce((a,b)=>a+b,0);
+    }
+    const describe=i=>`${ds[i]} дн. · ${portions?percent(portions[i])+'% · ':''}${money(amounts[i],true)} ₽`;
+    return {valid,ds,amounts,portions,start,preview:`Первый: ${describe(0)}${n>1?'<br>Остальные: '+describe(1):''}`};
+  }
+  function generatorMarkup(){
+    const g=generation(),stages=state.mode==='stages';
+    return `<div class="sc-generator"><div class="sc-generator-head"><strong>${stages?'Равные этапы':'Равные платежи'}</strong><button type="button" class="sc-icon" data-action="hide-generator" aria-label="Закрыть генератор"><i data-lucide="x" aria-hidden="true"></i></button></div><div class="sc-generator-grid"><label class="sc-field">Количество<span class="sc-input-wrap"><input id="sc-gen-count" type="number" min="1" max="200" step="1" value="${state.count}" aria-label="Количество создаваемых строк"></span></label><div class="sc-gen-note"><span id="sc-gen-preview">${g.preview}</span></div></div><div class="sc-generator-actions"><span class="sc-gen-message">${stages?'Заменит текущие этапы.':'Распределит остаток после аванса и заменит текущие платежи.'} Аванс сохранится. Остаток округления — в первой строке.</span><button type="button" class="sc-btn sc-primary" data-action="apply-generator" id="sc-generate" ${g.valid?'':'disabled'}>Создать ${g.valid?state.count:''}</button></div></div>`;
+  }
+  function rowValue(row,mode){return isPercent(mode)?percent(row.percent):money(row[amountKey(mode)],true);}
+  function converted(row,mode){return isPercent(mode)?`<span class="sc-converted">${money(row[amountKey(mode)],true)} ₽</span>`:'';}
+  function fillReadyFromStages(){
+    const cr=computed();
+    state.ready=cr.map((x,i)=>({label:`Оплата этапа ${i+1}`,amount:x.cash,day:x.due}));
+    if(sum(cr,'b')>0)state.ready.push({label:'Строительное удержание',amount:sum(cr,'b'),day:state.duration+state.buildDays});
+    if(sum(cr,'w')>0)state.ready.push({label:'Гарантийное удержание',amount:sum(cr,'w'),day:state.duration+state.warrantyDays});
+    if(isPercent('ready'))rememberPercentages('ready');
+  }
+  function validate(cr,allocated){
+    const errors=[],ap=advancePercent(),br=state.buildOn?state.build:0,wr=state.warrantyOn?state.warranty:0;
+    if(!Number.isSafeInteger(state.price)||state.price<=0)errors.push('Укажите положительную стоимость предложения.');
+    if(!Number.isInteger(state.duration)||state.duration<1)errors.push('Укажите целый положительный день завершения.');
+    if(!Number.isFinite(ap)||ap<0||ap>100)errors.push('Аванс должен быть от 0 до 100%.');
+    if(state.advanceOn&&(!Number.isInteger(state.advanceDay)||state.advanceDay<0||state.advanceDay>state.duration))errors.push('День аванса должен быть от начала до завершения договора.');
+    if(isPercent(state.mode)){
+      const rows=entryRows(state.mode);
+      if(rows.some(x=>!Number.isFinite(x.percent)||x.percent<0||x.percent>100))errors.push('Проценты должны быть от 0 до 100.');
+      if(!Number.isFinite(sum(rows,'percent'))||Math.abs(sum(rows,'percent')-targetPercent(state.mode))>=1e-8)errors.push(state.mode==='stages'?'Проценты этапов должны составлять 100% стоимости предложения.':'Проценты платежей вместе с авансом должны составлять 100%.');
+    }
+    if(state.mode==='stages'){
+      if(!Number.isInteger(state.delay)||state.delay<0)errors.push('Постоплата должна быть целым неотрицательным числом дней.');
+      if([br,wr].some(x=>!Number.isFinite(x)||x<0||x>100))errors.push('Удержания должны быть от 0 до 100%.');
+      if(ap+br+wr>100)errors.push('Аванс и удержания превышают 100%. Уменьшите аванс или удержания.');
+      if(cr.some(x=>!Number.isSafeInteger(x.gross)||x.gross<=0))errors.push('У каждого этапа должна быть положительная стоимость.');
+      if(sum(cr,'gross')!==state.price)errors.push(`Стоимость этапов отличается от стоимости предложения на ${money(Math.abs(sum(cr,'gross')-state.price),true)} ₽. Исправьте строки или разбейте сумму заново.`);
+      if(cr.some((x,i)=>!Number.isInteger(x.end)||x.end<0||x.end>state.duration||(i>0&&x.end<cr[i-1].end)))errors.push('Дни этапов должны идти по порядку и не выходить за завершение договора.');
+      if(cr.some(x=>!Number.isInteger(x.due)||x.due<x.end))errors.push('Постоплата этапа должна быть целым неотрицательным числом дней.');
+      if(state.advanceOn&&cr.some(x=>state.advanceDay>x.end))errors.push('Аванс должен быть до первого этапа или в тот же день.');
+      if((br>0&&(!Number.isInteger(state.buildDays)||state.buildDays<0))||(wr>0&&(!Number.isInteger(state.warrantyDays)||state.warrantyDays<0)))errors.push('Срок выплаты удержания должен быть целым неотрицательным числом дней.');
+      if(cr.some(x=>(x.b>0&&state.duration+state.buildDays<x.due)||(x.w>0&&state.duration+state.warrantyDays<x.due)))errors.push('Выплата удержания раньше обычной оплаты одного из этапов. Уточните срок выплаты удержания.');
+      if(cr.some(x=>x.cash<0))errors.push('После вычетов получился отрицательный платёж. Проверьте условия.');
+    }else{
+      if((state.ready||[]).some(x=>!Number.isSafeInteger(x.amount)||x.amount<0||!Number.isInteger(x.day)||x.day<0))errors.push('Укажите неотрицательные суммы и целые дни платежей.');
+      if(state.advanceOn&&(state.ready||[]).some(x=>x.amount>0&&x.day<state.advanceDay))errors.push('Платежи не должны предшествовать авансу.');
+      if(allocated!==state.price)errors.push(`Аванс и платежи отличаются от стоимости предложения на ${money(Math.abs(allocated-state.price),true)} ₽. Исправьте суммы или разбейте остаток заново.`);
+    }
+    return errors;
+  }
+  function render(){
+    const cr=computed(),stages=state.mode==='stages',stagePct=isPercent('stages'),readyPct=isPercent('ready');
+    $$('.sc-tabs button').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.mode===state.mode)));
+    $$('[data-entry]').forEach(b=>b.setAttribute('aria-pressed',String(state.units[b.dataset.entry]===b.dataset.unit)));
+    $('#sc-stages').hidden=!stages;$('#sc-ready').hidden=stages;$('#sc-delay-field').hidden=!stages;
+    $('.sc-settings').classList.toggle('sc-two-fields',!stages);
+    $('#sc-mode-note').textContent=stages?'Укажите стоимость этапов до зачёта аванса и удержаний.':'Укажите суммы и даты платежей. Аванс задаётся отдельно.';
+    $('#sc-stage-unit-note').textContent=stagePct?'% от полной стоимости предложения':'Стоимость до зачёта аванса и удержаний';
+    $('#sc-ready-unit-note').textContent=readyPct?'% от полной стоимости предложения':'Аванс + платежи = стоимость предложения';
+    $('#sc-cost-heading').textContent=stagePct?'Стоимость, %':'Стоимость, ₽';
+    $('#sc-advance').disabled=!state.advanceOn;$('#sc-advance-day').disabled=!state.advanceOn;
+    $('#sc-advance-amount').textContent=money(advanceAmount())+' ₽';
+    ['build','warranty'].forEach(k=>{$('#sc-'+k).disabled=!state[k+'On'];$('#sc-'+k+'-days').disabled=!state[k+'On'];});
+    const br=state.buildOn?state.build:0,wr=state.warrantyOn?state.warranty:0;
+    $('#sc-ret-badge').textContent=br||wr?`${percent(br)}% + ${percent(wr)}%`:'Нет';
+    $('#sc-ret-total').textContent=money(Math.round(state.price*(br+wr)/100))+' ₽';
+    $('#sc-stage-count').textContent=cr.length;
+    $('#sc-stage-rows').innerHTML=cr.map((x,i)=>`<tr class="sc-stage-row ${state.expanded===i?'sc-row-open':''}"><td><span class="sc-number">${i+1}</span></td><td data-label="Завершение, день"><input class="sc-cell-edit sc-day" type="number" step="1" min="0" value="${x.end}" data-stage="${i}" data-key="end" aria-label="Завершение этапа ${i+1}, день"></td><td data-label="Стоимость, ${stagePct?'%':'₽'}"><input class="sc-cell-edit" type="text" inputmode="decimal" value="${rowValue(x,'stages')}" data-stage="${i}" data-key="gross" aria-label="Стоимость этапа ${i+1}, ${stagePct?'процентов':'рублей'}">${converted(x,'stages')}</td><td class="sc-due" data-label="Оплата, день">${x.due}</td><td class="sc-cash" data-label="К перечислению, ₽">${money(x.cash,true)}</td><td><button type="button" class="sc-icon" data-action="expand" data-index="${i}" aria-label="Расчёт этапа ${i+1}" aria-expanded="${state.expanded===i}"><i data-lucide="${state.expanded===i?'chevron-up':'chevron-down'}" aria-hidden="true"></i></button></td></tr>${state.expanded===i?`<tr class="sc-breakdown-row"><td colspan="6" class="sc-breakdown-cell"><div class="sc-breakdown"><div class="sc-breakdown-values"><div><span>Зачёт аванса</span><strong>− ${money(x.a,true)} ₽</strong></div><div><span>Строительное</span><strong>− ${money(x.b,true)} ₽</strong></div><div><span>Гарантийное</span><strong>− ${money(x.w,true)} ₽</strong></div></div><div class="sc-breakdown-bottom"><label class="sc-inline">Постоплата<input class="sc-mini-input" type="number" min="0" step="1" value="${x.delay===null?state.delay:x.delay}" data-stage="${i}" data-key="delay" aria-label="Своя постоплата этапа ${i+1}">дней</label><button type="button" class="sc-link sc-delete" data-action="delete-stage" data-index="${i}">Удалить этап</button></div></div></td></tr>`:''}`).join('')+`<tr class="sc-table-total"><td colspan="2">Всего по этапам</td><td>${stagePct?percent(sum(state.rows,'percent'))+'%<span class="sc-converted">'+money(sum(cr,'gross'),true)+' ₽</span>':money(sum(cr,'gross'),true)}</td><td></td><td class="sc-cash">${money(sum(cr,'cash'),true)}</td><td></td></tr>`;
+    const releases=[{name:'Строительное удержание',amount:sum(cr,'b'),day:state.duration+state.buildDays},{name:'Гарантийное удержание',amount:sum(cr,'w'),day:state.duration+state.warrantyDays}].filter(x=>x.amount>0);
+    $('#sc-release').hidden=!releases.length;
+    $('#sc-release-rows').innerHTML=releases.map(x=>`<div class="sc-release-row"><span class="sc-release-name"><i data-lucide="shield-check" aria-hidden="true"></i>${x.name}</span><span class="sc-release-day">день ${x.day}</span><span class="sc-release-value">${money(x.amount)} ₽</span></div>`).join('');
+    $('#sc-stage-generator-slot').innerHTML=state.generator&&stages?generatorMarkup():'';
+    $('#sc-ready-generator-slot').innerHTML=state.generator&&!stages?generatorMarkup():'';
+    if(state.ready){
+      $('#sc-ready-count').textContent=state.ready.length;
+      $('#sc-ready-rows').innerHTML=state.ready.map((x,i)=>`<div class="sc-ready-row"><span class="sc-number">${i+1}</span><label class="sc-field">${esc(x.label)}<span class="sc-input-wrap"><input type="text" inputmode="decimal" value="${rowValue(x,'ready')}" data-ready="${i}" data-key="amount" aria-label="Сумма платежа ${i+1}, ${readyPct?'процентов':'рублей'}"><span class="sc-unit">${readyPct?'%':'₽'}</span></span>${converted(x,'ready')}</label><label class="sc-field">День оплаты<span class="sc-input-wrap"><input type="number" min="0" step="1" value="${x.day}" data-ready="${i}" data-key="day" aria-label="День оплаты платежа ${i+1}"></span></label><button type="button" class="sc-icon" data-action="delete-ready" data-index="${i}" aria-label="Удалить платёж ${i+1}"><i data-lucide="x" aria-hidden="true"></i></button></div>`).join('');
+    }
+    const allocated=advanceAmount()+(stages?sum(cr,'cash')+sum(cr,'b')+sum(cr,'w'):sum(state.ready||[],'amount'));
+    const errors=validate(cr,allocated);
+    $('#sc-error').hidden=!errors.length;$('#sc-error').textContent=errors.join(' ');$('#sc-save').disabled=!!errors.length;
+    $('#sc-balance-label').textContent=errors.length?'Проверьте график':'Распределено полностью';$('#sc-balance-value').textContent=money(allocated)+' ₽';$('.sc-balance').style.color=errors.length?'var(--sc-error)':'var(--sc-green)';
+    icons();
+  }
+  function changed(){ $('#sc-toast').hidden=true;render(); }
+  root.addEventListener('click',e=>{
+    const entry=e.target.closest('[data-entry]');
+    if(entry){const mode=entry.dataset.entry,unit=entry.dataset.unit;if(state.units[mode]!==unit){state.units[mode]=unit;if(unit==='percent')rememberPercentages(mode);}changed();return;}
+    const mode=e.target.closest('[data-mode]');
+    if(mode){state.mode=mode.dataset.mode;state.generator=false;if(state.mode==='ready'&&(!state.ready||!state.readyEdited))fillReadyFromStages();changed();return;}
+    const button=e.target.closest('[data-action]');if(!button||button.disabled)return;
+    const action=button.dataset.action,index=Number(button.dataset.index);
+    if(action==='close'||action==='cancel'){if(action==='cancel'){state=structuredClone(saved);syncInputs();render();}$('.sc-window').hidden=true;$('.sc-reopen').hidden=false;return;}
+    if(action==='reopen'){$('.sc-window').hidden=false;$('.sc-reopen').hidden=true;return;}
+    if(action==='save'){saved=structuredClone(state);$('#sc-toast').textContent='Изменения сохранены в макете.';$('#sc-toast').hidden=false;return;}
+    if(action==='generator')state.generator=!state.generator;
+    if(action==='hide-generator')state.generator=false;
+    if(action==='expand')state.expanded=state.expanded===index?-1:index;
+    if(action==='delete-stage'){state.rows.splice(index,1);state.expanded=-1;recalculatePercentages('stages');}
+    if(action==='add-stage'){
+      const row={gross:Math.max(0,state.price-sum(state.rows,'gross')),end:state.duration,delay:null};
+      if(isPercent('stages'))row.percent=Math.max(0,100-sum(state.rows,'percent'));
+      state.rows.push(row);state.expanded=state.rows.length-1;recalculatePercentages('stages');
+    }
+    if(action==='add-ready'){
+      const row={label:'Платёж',amount:Math.max(0,targetAmount('ready')-sum(state.ready,'amount')),day:state.duration};
+      if(isPercent('ready'))row.percent=Math.max(0,targetPercent('ready')-sum(state.ready,'percent'));
+      state.ready.push(row);state.readyEdited=true;recalculatePercentages('ready');
+    }
+    if(action==='delete-ready'){state.ready.splice(index,1);state.readyEdited=true;recalculatePercentages('ready');}
+    if(action==='apply-generator'){
+      const g=generation();if(!g.valid)return;let day=g.start;
+      if(state.mode==='stages'){
+        state.rows=g.amounts.map((gross,i)=>({gross,end:day+=g.ds[i],delay:null,...(g.portions?{percent:g.portions[i]}:{})}));state.expanded=-1;
+      }else{
+        state.ready=g.amounts.map((amount,i)=>({label:`Платёж ${i+1}`,amount,day:day+=g.ds[i],...(g.portions?{percent:g.portions[i]}:{})}));state.readyEdited=true;
+      }
+      state.generator=false;
+    }
+    changed();
+  });
+  const inputMap={'sc-duration':'duration','sc-delay':'delay','sc-advance':'advance','sc-advance-day':'advanceDay','sc-build':'build','sc-build-days':'buildDays','sc-warranty':'warranty','sc-warranty-days':'warrantyDays'};
+  root.addEventListener('input',e=>{
+    if(e.target.id==='sc-gen-count'){
+      state.count=num(e.target.value);const g=generation();$('#sc-generate').disabled=!g.valid;$('#sc-generate').textContent=`Создать ${g.valid?state.count:''}`;$('#sc-gen-preview').innerHTML=g.preview;
+    }
+  });
+  root.addEventListener('change',e=>{
+    const el=e.target;if(el.id==='sc-gen-count')return;
+    if(el.id==='sc-price'){
+      state.price=Math.round(num(el.value)*100);el.value=money(state.price);
+      recalculatePercentages('stages');recalculatePercentages('ready');
+    }else if(inputMap[el.id])state[inputMap[el.id]]=num(el.value);
+    else if(el.id==='sc-advance-on')state.advanceOn=el.checked;
+    else if(el.id==='sc-build-on')state.buildOn=el.checked;
+    else if(el.id==='sc-warranty-on')state.warrantyOn=el.checked;
+    else if(el.dataset.stage!==undefined||el.dataset.ready!==undefined){
+      const mode=el.dataset.stage!==undefined?'stages':'ready';
+      const row=entryRows(mode)[Number(mode==='stages'?el.dataset.stage:el.dataset.ready)],key=el.dataset.key;
+      if(key===amountKey(mode)){
+        if(isPercent(mode)){row.percent=num(el.value);recalculatePercentages(mode);}
+        else{row[key]=Math.round(num(el.value)*100);delete row.percent;}
+      }else row[key]=num(el.value);
+    }else return;
+    if(state.mode==='ready')state.readyEdited=true;
+    changed();
+  });
+  function applyDesign(){root.style.colorScheme=design.theme==='auto'?'light dark':design.theme;root.style.setProperty('--sc-row',design.density==='compact'?'8px':'14px');$('#sc-retentions').open=design.deductions==='expanded';}
+  syncInputs();render();applyDesign();
+  if(globalThis.Tweak){const tweak=new Tweak({container:root,onChange:applyDesign});tweak.addSelect(design,'theme',{label:'Тема',options:[{label:'Как в приложении',value:'auto'},{label:'Тёмная',value:'dark'},{label:'Светлая',value:'light'}]});tweak.addSelect(design,'density',{label:'Плотность строк',options:[{label:'Обычная',value:'comfortable'},{label:'Компактная',value:'compact'}]});tweak.addSelect(design,'deductions',{label:'Блок удержаний',options:[{label:'Свёрнут',value:'collapsed'},{label:'Раскрыт',value:'expanded'}]});}
+})();
+
   </script>
 </div>
 
